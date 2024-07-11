@@ -1,0 +1,84 @@
+
+
+body {
+    background-image: url('background4.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    color: white; 
+}
+
+.header-container {
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+.container {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.tables-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.order-container,
+.shipping-container {
+    flex: 1; 
+    background-color: rgba(41, 33, 33, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #161111;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #1d1313;
+}
+
+tr:nth-child(even) {
+    background-color: #221d1d;
+}
+
+tr:hover {
+    background-color: #3a3939;
+}
+
+.clear-order-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+}
+
+.clear-order-button {
+    background-color: #360b5f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.clear-order-button:hover {
+    background-color: #080146;
+}

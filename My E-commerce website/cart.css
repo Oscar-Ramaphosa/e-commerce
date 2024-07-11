@@ -1,0 +1,152 @@
+/*styling the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: white;
+}
+
+/* the css code below style the cart container and the table */
+.cart-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: transparent;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: rgb(61, 60, 60);
+}
+
+/* style the total price of products in the table */
+.total {
+    text-align: right;
+    font-weight: bold;
+}
+
+/* styling the buttons on the cart page */
+.cart-buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.cart-buttons .btn {
+    background-color: #421063; 
+    color: white; 
+    padding: 10px 20px; 
+    text-align: center;   
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 5px 10px; 
+    border: none;
+    text-decoration: none; 
+    cursor: pointer; 
+    border-radius: 5px; 
+}
+
+.cart-buttons .btn:hover {
+    background-color: #45a049; 
+}
+
+/* Style the form container in checkout */
+.form-container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Style the form elements checkout*/
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    margin-bottom: 10px 20px;
+    text-align: center;
+    color: white;
+}
+
+label {
+    margin-bottom:10px 20px;
+    color: white;
+}
+
+input {
+    padding:10px 20px;
+    margin-bottom: 1rem;
+    border: 1px solid #6e6c6c;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #39116d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+/* Styling the confirmation container on the conformation page*/
+.confirmation-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #383636;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.confirmation-container h1 {
+    color: #088632;
+    margin-bottom: 20px;
+}
+
+.confirmation-container p {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.confirmation-container a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3c1b72;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.confirmation-container a:hover {
+    background-color: #45a049;
+}
+

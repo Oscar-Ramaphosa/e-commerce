@@ -1,0 +1,135 @@
+body {
+    background-image: url('background4.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin: 0; 
+    padding: 0; 
+}
+
+.overlay { 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(3, 3, 3, 0.5); 
+}
+
+
+body, h1, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Styling the container */
+.container {
+    background-color: rgba(39, 37, 37, 0.8); 
+    padding: 20px;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.button-box {
+    background-color: rgba(53, 48, 48, 0.9); 
+    padding: 15px;
+    border-radius: 8px;
+    text-align: left;
+    border: 1px solid rgba(0, 0, 0, 0.1); 
+}
+
+.button-box p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #fffbfb;
+}
+
+/* styling Button  */
+button {
+    background-color: #31464e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #352042;
+}
+
+
+/* styling Form container  */
+.form-container {
+    background-color: rgba(39, 37, 37, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* styling Form group  */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff2f2;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #252424;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-group input[type="file"] {
+    padding: 3px;
+}
+
+button[type="submit"] {
+    background-color:#31464e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #352042;
+}
+

@@ -1,0 +1,293 @@
+/* Adding the background image to the website */
+body {
+    background-image: url('background4.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin: 0; 
+    padding: 0; 
+}
+
+.overlay { 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(3, 3, 3, 0.5); 
+}
+
+/* creating a smooth scrolling of the pages */
+html {
+    scroll-behavior: smooth;
+}
+
+.a {
+    cursor: pointer;
+}
+/* Add styling the main header with logos and menu*/
+.main-header {
+    width: 100%;
+    height: 80px; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-div-logo {
+    width: fit-content;
+    height: 100%; 
+}
+
+.main-div-logo img {
+    height: 50px;
+}
+
+.main-nav {
+    width: fit-content;
+    height: 100%;  
+}
+
+.main-nav ul {
+    list-style: none;
+}
+
+.main-nav ul li {
+    display: inline;
+    float: left;
+}
+
+.main-nav ul li a {
+    padding: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    color: white;
+}
+
+.main-nav ul li a:hover {
+    color: rgb(76, 83, 81);
+}
+
+/* styling the login and sign up */
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 80px;
+}
+
+#loginBtn {
+    margin-right: 35px;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    background-color: #0bb959;
+}
+
+.login p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px; 
+    font-size: 14px;
+    padding-right: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+
+}
+
+h4 {
+    width: 50%;
+    margin: 0 auto; 
+    text-align: center;
+    color: white;
+}
+
+.content h4 {
+    width: 50%; 
+    margin-left: 10px; 
+    margin-top: 70px;
+}
+/* Add styles for the cart label */
+.Cart {
+    display: flex;
+    align-items: center; 
+    padding-left: 70%;
+    flex-direction: column;
+    padding-top: 5%; 
+}
+
+.Cart img {
+    width: 20px;
+    height: 20px;
+}
+
+#cartLabel {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 5px; 
+}
+
+#viewCartBtn {
+    background-color: #461277;
+    color: white;
+    border: 1px solid #0f4204;
+    border-radius: 2px;
+    border-radius: 1%;
+    cursor: pointer;
+    text-align: center;
+}
+/* Darker green on hover */
+#viewCartBtn:hover {
+    background-color: #204422; 
+}
+
+/* below is the products code design*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product {
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 300px;
+    padding: 20px;
+}
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+.product h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: rgb(142, 207, 150);
+}
+.product p {
+    color: #f8f4f4;
+    margin-bottom: 10px;
+}
+
+.AddToCartButton {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #24e607;
+    border-radius: 4px;
+    border-radius: 1%;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+
+  .AddToCartButton:hover {
+    background-color: #204422; 
+  }
+
+  /*the bellow code style the signup and login form*/
+.login form {
+    align-items: center;
+    margin-top: 250px;
+  
+}
+
+.login label {
+    margin-top: 10px;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login input[type="submit"] {
+    width: 50%;
+    background-color:#56887e;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+#signup-form {
+    display: none;
+}
+
+#notificationContainer {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #270642;
+    color: white;
+    padding: 10px 20px;
+    z-index: 9999;
+    display: none;
+}
+
+/* styling the footer of the home page */
+.main-footer {
+    background-color: transparent;
+    color: #fff;
+    padding-top: 140px;
+    text-align: center;
+}
+
+.footer-section {
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    margin-top: 0;
+}
+
+.footer-section p, .footer-section a {
+    margin: 5px 0;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.social-icon {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+.social-icon:hover {
+    transform: translateY(-5px);
+}
+
